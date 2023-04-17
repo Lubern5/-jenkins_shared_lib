@@ -1,6 +1,3 @@
 def call(){
-    
-    tools 
-        maven 'localMaven'
-        jdk 'localJdk'
+     sh 'maven verify -DskipUnitTests'
 }
